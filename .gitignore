@@ -1,0 +1,48 @@
+# Env / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.p8
+*.p12
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# Node / Deno
+node_modules/
+.deno/
+
+# Supabase
+supabase/.branches/
+supabase/.temp/
+
+# iOS / Xcode
+ios-app/build/
+ios-app/DerivedData/
+ios-app/*.xcuserdata/
+ios-app/Pods/
+ios-app/.swiftpm/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Logs
+*.log
+logs/
